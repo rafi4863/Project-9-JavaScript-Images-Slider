@@ -1,0 +1,51 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/abstract-gradient-background-with-grain-texture_84443-2838.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent-div{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+
+.images-div-parent{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.images{
+    min-width: 100%;
+    height: 100%;
+}
+
+.button-div-parent{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 22px;
+    border-radius: 3px;
+}
