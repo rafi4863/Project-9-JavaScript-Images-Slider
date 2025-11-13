@@ -49,3 +49,29 @@ button{
     font-size: 22px;
     border-radius: 3px;
 }
+
+
+
+
+
+/* For Mobiles (width up to 600px) */
+@media (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .parent-div {
+        width: 95%;
+        height: 250px;
+    }
+
+    .button-div-parent {
+        padding: 0 5px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 5px 8px;
+    }
+}
